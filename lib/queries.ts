@@ -2,17 +2,17 @@ import { gql } from '@apollo/client';
 
 export const GET_STATISTICS = gql`
   query GetStatistics {
-    donors_aggregate {
+    donar_aggregate {
       aggregate {
         count
       }
     }
-    ngos_aggregate {
+    ngo_aggregate {
       aggregate {
         count
       }
     }
-    volunteers_aggregate {
+    volunteer_aggregate {
       aggregate {
         count
       }
